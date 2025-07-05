@@ -49,3 +49,7 @@ connectDB().then(() => {
 }).catch((error) => {
   console.error("Database connection failed:", error);
 });
+<<<<<<< HEAD
+=======
+
+>>>>>>> dac1e2e43053b73358308c881018221cd45e8f71
