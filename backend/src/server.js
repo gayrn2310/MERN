@@ -36,5 +36,3 @@ connectDB().then(() => {
   console.error("Database connection failed:", error);
 });
 
-
-//password: LtbX02zpfJvWwJPZ
