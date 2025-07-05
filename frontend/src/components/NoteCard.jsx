@@ -37,7 +37,7 @@ const NoteCard = ({note, setNote}) => {
         <span className='text-base-content/60 text-sm'>{formatDate(note.createdAt)}</span>
         <div className='flex items-center gap-1'>
             <PenSquareIcon className='size-5' />
-            <button className='btn btn-ghost btn-sm' onClick={(e) => handleDelete(e, note._id)}>
+            <button className='btn btn-error btn-outline' onClick={(e) => handleDelete(e, note._id)}>
                 <Trash2Icon className='size-5' />
             </button>
         </div>
